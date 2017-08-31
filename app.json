@@ -1,19 +1,19 @@
 {
-  "name": "LINE Login starter",
-  "description": "Sample Application for LINE Login",
-  "repository": "https://github.com/line/line-login-starter",
-  "env": {
-    "LINECORP_PLATFORM_CHANNEL_CHANNELID": {
-      "description": "Channel ID",
-      "required": true
-    },
-    "LINECORP_PLATFORM_CHANNEL_CHANNELSECRET": {
-      "description": "Channel secret",
-      "required": true
-    },
-    "LINECORP_PLATFORM_CHANNEL_CALLBACKURL": {
-      "description": "Callback URL",
-      "required": true
+    "name": "LINE Login starter",
+    "description": "Sample Application for LINE Login",
+    "repository": "https://github.com/line/line-login-starter",
+    "env": {
+        "LINECORP_PLATFORM_CHANNEL_CHANNELID": {
+            "description": "1532974189",
+            "required": true
+        },
+        "LINECORP_PLATFORM_CHANNEL_CHANNELSECRET": {
+            "description": "3d629fe3e6fef44bffe24c0005cd300e",
+            "required": true
+        },
+        "LINECORP_PLATFORM_CHANNEL_CALLBACKURL": {
+            "description": "https://test-api-login.herokuapp.com/auth",
+            "required": true
+        }
     }
-  }
 }
